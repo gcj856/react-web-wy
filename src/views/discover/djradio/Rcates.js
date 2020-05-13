@@ -13,6 +13,7 @@ class Rcates extends Component {
   componentDidMount() {
 
   }
+  //当父组件props变化的时候，子组件变化
   componentWillReceiveProps(nextProps) {
     const { cates, cateId } = nextProps;
     cates.forEach((i, index) => {
